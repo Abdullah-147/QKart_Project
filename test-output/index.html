@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\DELL\OneDrive\Eclipse Workspace\QKart_Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 1 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase08(SuitCase, 50)">TestCase08(SuitCase, 50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase01(testUsername123, testPassword123)">TestCase01(testUsername123, testPassword123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase01(test_123, test_123)">TestCase01(test_123, test_123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase01(testUsername, testPassword)">TestCase01(testUsername, testPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase02(testUsername123, testPassword123)">TestCase02(testUsername123, testPassword123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase02(testUsername, testPassword)">TestCase02(testUsername, testPassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase02(test_123, test_123)">TestCase02(test_123, test_123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase03(YONEX)">TestCase03(YONEX)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase03(Connector)">TestCase03(Connector)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase03(Roadster)">TestCase03(Roadster)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase04(HandBag)">TestCase04(HandBag)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase04(Nike Mens Running Shoes)">TestCase04(Nike Mens Running Shoes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase04(Roadster)">TestCase04(Roadster)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase05(YONEX Smash Badminton Racquet, Connector, 1 Hacker Way Menlo Park, CA 94025)">TestCase05(YONEX Smash Badminton Racquet, Connector, 1 Hacker Way Menlo Park, CA 94025)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase05(Tan Leatherette Weekender Duffle, YONEX Smash Badminton Racquet, TEST ADDR LINES COUNT GREATER TH)">TestCase05(Tan Leatherette Weekender Duffle, YONEX Smash Badminton Racquet, TEST ADDR LINES COUNT GREATER TH)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase05(YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)">TestCase05(YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase06(Connector, Kindle)">TestCase06(Connector, Kindle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase06(Xtend Smart Watch, Yarine Floor Lamp)">TestCase06(Xtend Smart Watch, Yarine Floor Lamp)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase06(Yarine Floor Lamp, Connector)">TestCase06(Yarine Floor Lamp, Connector)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase07(Connector;Xtend Smart Watch)">TestCase07(Connector;Xtend Smart Watch)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase07(Tan Leatherette Weekender Duffle;Xtend Smart Watch)">TestCase07(Tan Leatherette Weekender Duffle;Xtend Smart Watch)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase07(Kindle;Jenga)">TestCase07(Kindle;Jenga)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase08(Tan Leatherette Weekender Duffle, 60)">TestCase08(Tan Leatherette Weekender Duffle, 60)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase08(Jenga, 60)">TestCase08(Jenga, 60)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase09">TestCase09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase10">TestCase10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase11(facebook user, test_user__@gmail.com, !!!special characters!!)">TestCase11(facebook user, test_user__@gmail.com, !!!special characters!!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase11(crio user, criouser@gmail.com, Testing the contact us page)">TestCase11(crio user, criouser@gmail.com, Testing the contact us page)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase11(hacker user !!!, bad_user@gmail.com, &lt;XSS testing&gt;)">TestCase11(hacker user !!!, bad_user@gmail.com, <XSS testing>)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase12(Connector, Apple Park, Cupertino, CA, U.S. - CA)">TestCase12(Connector, Apple Park, Cupertino, CA, U.S. - CA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase12(YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)">TestCase12(YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.QKART_Tests" class="method navigator-link" hash-for-method="TestCase12(Kindle, Dubai main road , Near Bus Stand)">TestCase12(Kindle, Dubai main road , Near Bus Stand)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.QKART_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase08(SuitCase, 50)">
+                  </a> <!-- TestCase08(SuitCase, 50) -->
+                  <span class="method-name">TestCase08</span>
+                  <span class="parameters">(SuitCase, 50)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Insufficient balance message not shown expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at Tests.QKART_Tests.TestCase08(QKART_Tests.java:416)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that insufficient balance error is thrown when the wallet balance is not enough)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.QKART_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase01(testUsername123, testPassword123)">
+                  </a> <!-- TestCase01(testUsername123, testPassword123) -->
+                  <span class="method-name">TestCase01</span>
+                  <span class="parameters">(testUsername123, testPassword123)</span>
+                  <em>
+(Verify registration happens correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase01(test_123, test_123)">
+                  </a> <!-- TestCase01(test_123, test_123) -->
+                  <span class="method-name">TestCase01</span>
+                  <span class="parameters">(test_123, test_123)</span>
+                  <em>
+(Verify registration happens correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase01(testUsername, testPassword)">
+                  </a> <!-- TestCase01(testUsername, testPassword) -->
+                  <span class="method-name">TestCase01</span>
+                  <span class="parameters">(testUsername, testPassword)</span>
+                  <em>
+(Verify registration happens correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase02(testUsername123, testPassword123)">
+                  </a> <!-- TestCase02(testUsername123, testPassword123) -->
+                  <span class="method-name">TestCase02</span>
+                  <span class="parameters">(testUsername123, testPassword123)</span>
+                  <em>
+(Verify re-registering an already registered user fails)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase02(testUsername, testPassword)">
+                  </a> <!-- TestCase02(testUsername, testPassword) -->
+                  <span class="method-name">TestCase02</span>
+                  <span class="parameters">(testUsername, testPassword)</span>
+                  <em>
+(Verify re-registering an already registered user fails)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase02(test_123, test_123)">
+                  </a> <!-- TestCase02(test_123, test_123) -->
+                  <span class="method-name">TestCase02</span>
+                  <span class="parameters">(test_123, test_123)</span>
+                  <em>
+(Verify re-registering an already registered user fails)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase03(YONEX)">
+                  </a> <!-- TestCase03(YONEX) -->
+                  <span class="method-name">TestCase03</span>
+                  <span class="parameters">(YONEX)</span>
+                  <em>
+(Verify the functionality of search text box)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase03(Connector)">
+                  </a> <!-- TestCase03(Connector) -->
+                  <span class="method-name">TestCase03</span>
+                  <span class="parameters">(Connector)</span>
+                  <em>
+(Verify the functionality of search text box)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase03(Roadster)">
+                  </a> <!-- TestCase03(Roadster) -->
+                  <span class="method-name">TestCase03</span>
+                  <span class="parameters">(Roadster)</span>
+                  <em>
+(Verify the functionality of search text box)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase04(HandBag)">
+                  </a> <!-- TestCase04(HandBag) -->
+                  <span class="method-name">TestCase04</span>
+                  <span class="parameters">(HandBag)</span>
+                  <em>
+(Verify the existence of size chart for certain items and validate contents of size chart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase04(Nike Mens Running Shoes)">
+                  </a> <!-- TestCase04(Nike Mens Running Shoes) -->
+                  <span class="method-name">TestCase04</span>
+                  <span class="parameters">(Nike Mens Running Shoes)</span>
+                  <em>
+(Verify the existence of size chart for certain items and validate contents of size chart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase04(Roadster)">
+                  </a> <!-- TestCase04(Roadster) -->
+                  <span class="method-name">TestCase04</span>
+                  <span class="parameters">(Roadster)</span>
+                  <em>
+(Verify the existence of size chart for certain items and validate contents of size chart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase05(YONEX Smash Badminton Racquet, Connector, 1 Hacker Way Menlo Park, CA 94025)">
+                  </a> <!-- TestCase05(YONEX Smash Badminton Racquet, Connector, 1 Hacker Way Menlo Park, CA 94025) -->
+                  <span class="method-name">TestCase05</span>
+                  <span class="parameters">(YONEX Smash Badminton Racquet, Connector, 1 Hacker Way Menlo Park, CA 94025)</span>
+                  <em>
+(Verify that a new user can add multiple products in to the cart and Checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase05(Tan Leatherette Weekender Duffle, YONEX Smash Badminton Racquet, TEST ADDR LINES COUNT GREATER TH)">
+                  </a> <!-- TestCase05(Tan Leatherette Weekender Duffle, YONEX Smash Badminton Racquet, TEST ADDR LINES COUNT GREATER TH) -->
+                  <span class="method-name">TestCase05</span>
+                  <span class="parameters">(Tan Leatherette Weekender Duffle, YONEX Smash Badminton Racquet, TEST ADDR LINES COUNT GREATER TH)</span>
+                  <em>
+(Verify that a new user can add multiple products in to the cart and Checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase05(YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)">
+                  </a> <!-- TestCase05(YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3) -->
+                  <span class="method-name">TestCase05</span>
+                  <span class="parameters">(YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)</span>
+                  <em>
+(Verify that a new user can add multiple products in to the cart and Checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase06(Connector, Kindle)">
+                  </a> <!-- TestCase06(Connector, Kindle) -->
+                  <span class="method-name">TestCase06</span>
+                  <span class="parameters">(Connector, Kindle)</span>
+                  <em>
+(Verify that the contents of the cart can be edited)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase06(Xtend Smart Watch, Yarine Floor Lamp)">
+                  </a> <!-- TestCase06(Xtend Smart Watch, Yarine Floor Lamp) -->
+                  <span class="method-name">TestCase06</span>
+                  <span class="parameters">(Xtend Smart Watch, Yarine Floor Lamp)</span>
+                  <em>
+(Verify that the contents of the cart can be edited)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase06(Yarine Floor Lamp, Connector)">
+                  </a> <!-- TestCase06(Yarine Floor Lamp, Connector) -->
+                  <span class="method-name">TestCase06</span>
+                  <span class="parameters">(Yarine Floor Lamp, Connector)</span>
+                  <em>
+(Verify that the contents of the cart can be edited)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase07(Connector;Xtend Smart Watch)">
+                  </a> <!-- TestCase07(Connector;Xtend Smart Watch) -->
+                  <span class="method-name">TestCase07</span>
+                  <span class="parameters">(Connector;Xtend Smart Watch)</span>
+                  <em>
+(Verify that the contents made to the cart are saved against the user's login details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase07(Tan Leatherette Weekender Duffle;Xtend Smart Watch)">
+                  </a> <!-- TestCase07(Tan Leatherette Weekender Duffle;Xtend Smart Watch) -->
+                  <span class="method-name">TestCase07</span>
+                  <span class="parameters">(Tan Leatherette Weekender Duffle;Xtend Smart Watch)</span>
+                  <em>
+(Verify that the contents made to the cart are saved against the user's login details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase07(Kindle;Jenga)">
+                  </a> <!-- TestCase07(Kindle;Jenga) -->
+                  <span class="method-name">TestCase07</span>
+                  <span class="parameters">(Kindle;Jenga)</span>
+                  <em>
+(Verify that the contents made to the cart are saved against the user's login details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase08(Tan Leatherette Weekender Duffle, 60)">
+                  </a> <!-- TestCase08(Tan Leatherette Weekender Duffle, 60) -->
+                  <span class="method-name">TestCase08</span>
+                  <span class="parameters">(Tan Leatherette Weekender Duffle, 60)</span>
+                  <em>
+(Verify that insufficient balance error is thrown when the wallet balance is not enough)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase08(Jenga, 60)">
+                  </a> <!-- TestCase08(Jenga, 60) -->
+                  <span class="method-name">TestCase08</span>
+                  <span class="parameters">(Jenga, 60)</span>
+                  <em>
+(Verify that insufficient balance error is thrown when the wallet balance is not enough)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase09">
+                  </a> <!-- TestCase09 -->
+                  <span class="method-name">TestCase09</span>
+                  <em>
+(Verify that a product added to a cart is available when a new tab is added)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase10">
+                  </a> <!-- TestCase10 -->
+                  <span class="method-name">TestCase10</span>
+                  <em>
+(Verify that privacy policy and about us links are working fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase11(facebook user, test_user__@gmail.com, !!!special characters!!)">
+                  </a> <!-- TestCase11(facebook user, test_user__@gmail.com, !!!special characters!!) -->
+                  <span class="method-name">TestCase11</span>
+                  <span class="parameters">(facebook user, test_user__@gmail.com, !!!special characters!!)</span>
+                  <em>
+(Verify that the contact us dialog works fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase11(crio user, criouser@gmail.com, Testing the contact us page)">
+                  </a> <!-- TestCase11(crio user, criouser@gmail.com, Testing the contact us page) -->
+                  <span class="method-name">TestCase11</span>
+                  <span class="parameters">(crio user, criouser@gmail.com, Testing the contact us page)</span>
+                  <em>
+(Verify that the contact us dialog works fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase11(hacker user !!!, bad_user@gmail.com, &lt;XSS testing&gt;)">
+                  </a> <!-- TestCase11(hacker user !!!, bad_user@gmail.com, <XSS testing>) -->
+                  <span class="method-name">TestCase11</span>
+                  <span class="parameters">(hacker user !!!, bad_user@gmail.com, <XSS testing>)</span>
+                  <em>
+(Verify that the contact us dialog works fine)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase12(Connector, Apple Park, Cupertino, CA, U.S. - CA)">
+                  </a> <!-- TestCase12(Connector, Apple Park, Cupertino, CA, U.S. - CA) -->
+                  <span class="method-name">TestCase12</span>
+                  <span class="parameters">(Connector, Apple Park, Cupertino, CA, U.S. - CA)</span>
+                  <em>
+(Ensure that the Advertisement Links on the QKART page are clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase12(YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)">
+                  </a> <!-- TestCase12(YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3) -->
+                  <span class="method-name">TestCase12</span>
+                  <span class="parameters">(YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)</span>
+                  <em>
+(Ensure that the Advertisement Links on the QKART page are clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase12(Kindle, Dubai main road , Near Bus Stand)">
+                  </a> <!-- TestCase12(Kindle, Dubai main road , Near Bus Stand) -->
+                  <span class="method-name">TestCase12</span>
+                  <span class="parameters">(Kindle, Dubai main road , Near Bus Stand)</span>
+                  <em>
+(Ensure that the Advertisement Links on the QKART page are clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\OneDrive\Eclipse Workspace\QKart_Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Sanity_test&quot;/&gt;
+      &lt;include name=&quot;Regression_Test&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Sanity_test&quot;/&gt;
+      &lt;include name=&quot;Regression_Test&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Qkart_TestNG.resources.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Execution using testNG&quot; verbose=&quot;2&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;Tests&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.QKART_Tests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Execution using testNG --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Execution using testNG (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression_Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase04</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase06</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase07</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase09</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase10</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase11</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity_test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase01</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase02</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase03</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase05</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase08</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestCase12</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestCase08')
+data.setCell(0, 2, 'Tests.QKART_Tests')
+data.setCell(0, 3, 111686);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestCase08')
+data.setCell(1, 2, 'Tests.QKART_Tests')
+data.setCell(1, 3, 110961);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCase08')
+data.setCell(2, 2, 'Tests.QKART_Tests')
+data.setCell(2, 3, 40142);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestCase06')
+data.setCell(3, 2, 'Tests.QKART_Tests')
+data.setCell(3, 3, 30866);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestCase06')
+data.setCell(4, 2, 'Tests.QKART_Tests')
+data.setCell(4, 3, 29743);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestCase06')
+data.setCell(5, 2, 'Tests.QKART_Tests')
+data.setCell(5, 3, 29680);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestCase05')
+data.setCell(6, 2, 'Tests.QKART_Tests')
+data.setCell(6, 3, 29060);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestCase05')
+data.setCell(7, 2, 'Tests.QKART_Tests')
+data.setCell(7, 3, 26647);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestCase12')
+data.setCell(8, 2, 'Tests.QKART_Tests')
+data.setCell(8, 3, 25582);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestCase12')
+data.setCell(9, 2, 'Tests.QKART_Tests')
+data.setCell(9, 3, 25349);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestCase05')
+data.setCell(10, 2, 'Tests.QKART_Tests')
+data.setCell(10, 3, 23928);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestCase12')
+data.setCell(11, 2, 'Tests.QKART_Tests')
+data.setCell(11, 3, 23562);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestCase07')
+data.setCell(12, 2, 'Tests.QKART_Tests')
+data.setCell(12, 3, 21754);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestCase07')
+data.setCell(13, 2, 'Tests.QKART_Tests')
+data.setCell(13, 3, 19856);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestCase07')
+data.setCell(14, 2, 'Tests.QKART_Tests')
+data.setCell(14, 3, 19771);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestCase09')
+data.setCell(15, 2, 'Tests.QKART_Tests')
+data.setCell(15, 3, 14319);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestCase01')
+data.setCell(16, 2, 'Tests.QKART_Tests')
+data.setCell(16, 3, 12036);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestCase02')
+data.setCell(17, 2, 'Tests.QKART_Tests')
+data.setCell(17, 3, 11559);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestCase02')
+data.setCell(18, 2, 'Tests.QKART_Tests')
+data.setCell(18, 3, 11113);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestCase04')
+data.setCell(19, 2, 'Tests.QKART_Tests')
+data.setCell(19, 3, 10718);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestCase04')
+data.setCell(20, 2, 'Tests.QKART_Tests')
+data.setCell(20, 3, 10563);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestCase02')
+data.setCell(21, 2, 'Tests.QKART_Tests')
+data.setCell(21, 3, 10307);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestCase04')
+data.setCell(22, 2, 'Tests.QKART_Tests')
+data.setCell(22, 3, 10241);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestCase01')
+data.setCell(23, 2, 'Tests.QKART_Tests')
+data.setCell(23, 3, 10014);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestCase10')
+data.setCell(24, 2, 'Tests.QKART_Tests')
+data.setCell(24, 3, 9557);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestCase01')
+data.setCell(25, 2, 'Tests.QKART_Tests')
+data.setCell(25, 3, 8152);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestCase03')
+data.setCell(26, 2, 'Tests.QKART_Tests')
+data.setCell(26, 3, 7996);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestCase03')
+data.setCell(27, 2, 'Tests.QKART_Tests')
+data.setCell(27, 3, 7321);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestCase03')
+data.setCell(28, 2, 'Tests.QKART_Tests')
+data.setCell(28, 3, 7319);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestCase11')
+data.setCell(29, 2, 'Tests.QKART_Tests')
+data.setCell(29, 3, 2910);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestCase11')
+data.setCell(30, 2, 'Tests.QKART_Tests')
+data.setCell(30, 3, 2880);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestCase11')
+data.setCell(31, 2, 'Tests.QKART_Tests')
+data.setCell(31, 3, 2412);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.QKART_Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">createDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">TestCase01(testUsername, testPassword)</span>
+                <span class="method-start">11375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase01(testUsername123, testPassword123)</span>
+                <span class="method-start">26352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase01(test_123, test_123)</span>
+                <span class="method-start">37303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase02(testUsername, testPassword)</span>
+                <span class="method-start">46293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase02(testUsername123, testPassword123)</span>
+                <span class="method-start">58270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase02(test_123, test_123)</span>
+                <span class="method-start">69800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase03(YONEX)</span>
+                <span class="method-start">80702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase03(Roadster)</span>
+                <span class="method-start">88421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase03(Connector)</span>
+                <span class="method-start">96210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase04(Nike Mens Running Shoes)</span>
+                <span class="method-start">104804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase04(Roadster)</span>
+                <span class="method-start">115941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase04(HandBag)</span>
+                <span class="method-start">126621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase05(YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)</span>
+                <span class="method-start">137743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase05(Tan Leatherette Weekender Duffle, YONEX Smash Badminton Racquet, TEST ADDR LINES COUNT GREATER TH)</span>
+                <span class="method-start">167360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase05(YONEX Smash Badminton Racquet, Connector, 1 Hacker Way Menlo Park, CA 94025)</span>
+                <span class="method-start">191948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase06(Xtend Smart Watch, Yarine Floor Lamp)</span>
+                <span class="method-start">219249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase06(Yarine Floor Lamp, Connector)</span>
+                <span class="method-start">249411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase06(Connector, Kindle)</span>
+                <span class="method-start">279818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase07(Tan Leatherette Weekender Duffle;Xtend Smart Watch)</span>
+                <span class="method-start">311346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase07(Connector;Xtend Smart Watch)</span>
+                <span class="method-start">331810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase07(Kindle;Jenga)</span>
+                <span class="method-start">352296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase08(Tan Leatherette Weekender Duffle, 60)</span>
+                <span class="method-start">374928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestCase08(SuitCase, 50)</span>
+                <span class="method-start">486788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase08(Jenga, 60)</span>
+                <span class="method-start">527120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase10</span>
+                <span class="method-start">638308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase09</span>
+                <span class="method-start">648137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase11(crio user, criouser@gmail.com, Testing the contact us page)</span>
+                <span class="method-start">662786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase11(facebook user, test_user__@gmail.com, !!!special characters!!)</span>
+                <span class="method-start">665469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase11(hacker user !!!, bad_user@gmail.com, <XSS testing>)</span>
+                <span class="method-start">668613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase12(YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)</span>
+                <span class="method-start">671902 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase12(Connector, Apple Park, Cupertino, CA, U.S. - CA)</span>
+                <span class="method-start">695646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase12(Kindle, Dubai main road , Near Bus Stand)</span>
+                <span class="method-start">721174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">747026 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
